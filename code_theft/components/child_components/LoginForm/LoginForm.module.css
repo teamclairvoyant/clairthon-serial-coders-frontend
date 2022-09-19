@@ -1,0 +1,7 @@
+.formItem {
+  @apply w-full mt-1;
+}
+
+.submitBtn {
+  @apply mt-2 w-full;
+}

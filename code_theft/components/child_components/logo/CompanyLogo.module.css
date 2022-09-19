@@ -1,0 +1,11 @@
+.logoContainer {
+  @apply flex justify-center items-center gap-x-2;
+}
+
+.logoIcon {
+  color: #1890ff;
+}
+.logoName {
+  font-weight: 700;
+  color: #1890ff;
+}

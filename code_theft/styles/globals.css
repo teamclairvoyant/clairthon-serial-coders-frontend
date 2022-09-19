@@ -1,3 +1,7 @@
+@import url("./global-css-modules/tailwind");
+@import "~antd/dist/antd.css";
+@import "./theme.css";
+
 html,
 body {
   padding: 0;
@@ -15,7 +19,7 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: white) {
   html {
     color-scheme: dark;
   }
