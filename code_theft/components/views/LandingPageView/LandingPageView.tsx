@@ -15,7 +15,7 @@ function LandingPageView(props: LandingPageViewProps) {
 
       <div className={styles.bodyContainer}>
         <div className={styles.bannerWrapper}>
-          <Banner content="To Identify the Code TheftWe will need some information about your project.You can create & save configuration for a project." />
+          <Banner content="To Identify the Code Theft. We will need some information about your project.You can create & save configuration for a project." />
 
           <div className="flex flex-col justify-center items-center">
             <span className={styles.miniInfo}>
