@@ -1,0 +1,29 @@
+.banner::before {
+  content: open-quote;
+}
+
+.banner::after {
+  content: close-quote;
+}
+
+.banner::before,
+.banner::after {
+  opacity: 0.25;
+  padding: 0 10px;
+  font-size: 3em;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+  padding: 20px 10px;
+  border-radius: 10px;
+  background-color: #e5ddcb;
+  color: #ab526b;
+  font: 900 1.375rem/1.5 "Merriweather", serif;
+  font-style: italic;
+  text-align: center;
+  max-width: 660px;
+}

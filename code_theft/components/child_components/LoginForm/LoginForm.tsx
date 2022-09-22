@@ -1,4 +1,4 @@
-import { Button, Form, Input } from "antd";
+import { Button, Form, Input, Typography } from "antd";
 import {
   UserOutlined,
   EyeTwoTone,
@@ -7,18 +7,32 @@ import {
 } from "@ant-design/icons";
 import styles from "./LoginForm.module.css";
 
-type LoginFormProps = {};
+const { Text } = Typography;
 
-function LoginForm() {
-  // we need to Form.useForm hook for reading values
+type LoginFormProps = {
+  formState: string;
+  onFinishHandler: (userCredentials: any) => void;
+  onFinishFailedHandler?: () => {};
+};
+
+function LoginForm(props: LoginFormProps) {
+  const {
+    formState = "DEFAULT",
+    onFinishHandler = () => {},
+    onFinishFailedHandler = () => {},
+  } = props;
+
   return (
     <Form
       name="basic"
       initialValues={{ remember: true }}
-      onFinish={() => {}}
-      onFinishFailed={() => {}}
+      onFinish={onFinishHandler}
+      onFinishFailed={onFinishFailedHandler}
       autoComplete="off"
     >
+      {formState === "UNAUTHORIZED" && (
+        <Text type="danger">Username or Password is incorrect</Text>
+      )}
       <Form.Item
         name="username"
         rules={[{ required: true, message: "Please input your username!" }]}

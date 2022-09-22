@@ -1,5 +1,6 @@
 .logoContainer {
   @apply flex justify-center items-center gap-x-2;
+  @apply select-none;
 }
 
 .logoIcon {
