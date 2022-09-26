@@ -1,0 +1,16 @@
+.landingPageContianer {
+}
+
+.bannerWrapper {
+  @apply flex flex-col justify-center items-center;
+  height: calc(100vh - 80px);
+}
+
+.miniInfo {
+  @apply mt-10;
+  color: #ab526b;
+}
+
+.addConfigurationBtn {
+  @apply mt-2 w-52;
+}
