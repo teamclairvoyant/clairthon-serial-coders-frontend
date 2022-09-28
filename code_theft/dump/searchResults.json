@@ -1,0 +1,114 @@
+{
+    "userSearchResults": [
+      {
+        "AmrutaChichani": [
+          {
+            "id": 91716499,
+            "login": "AmrutaChichani",
+            "type": "User",
+            "score": 1,
+            "repos_url": "https://api.github.com/users/AmrutaChichani/repos",
+            "avatar_url": "https://avatars.githubusercontent.com/u/91716499?v=4",
+            "url": "https://api.github.com/users/AmrutaChichani"
+          }
+        ]
+      }
+    ],
+    "contentSearchResults": [
+      {
+        "CountAboveSixty": [
+          {
+            "name": "ChartController.php",
+            "url": "https://api.github.com/repositories/215595925/contents/app/Http/Controllers/ChartController.php?ref=f227fe038908ab8cd417143271dcd77bd0abf205",
+            "repository": {
+              "id": "215595925",
+              "name": "hrms",
+              "full_name": "barqaab-sohail/hrms",
+              "accessible": false,
+              "owner": {
+                "id": 47312385,
+                "login": "barqaab-sohail",
+                "type": "User",
+                "score": null,
+                "repos_url": "https://api.github.com/users/barqaab-sohail/repos",
+                "avatar_url": "https://avatars.githubusercontent.com/u/47312385?v=4",
+                "url": "https://api.github.com/users/barqaab-sohail"
+              },
+              "url": "https://api.github.com/repos/barqaab-sohail/hrms",
+              "fork": false
+            }
+          },
+          {
+            "name": "StorageTests.java",
+            "url": "https://api.github.com/repositories/533234762/contents/src/test/java/com/cv/sc/storage/StorageTests.java?ref=c1a99c2ca6854df8d475e8b0cd892e53ab43aeb8",
+            "repository": {
+              "id": "533234762",
+              "name": "clairthon-serial-coders",
+              "full_name": "teamclairvoyant/clairthon-serial-coders",
+              "accessible": false,
+              "owner": {
+                "id": 11548527,
+                "login": "teamclairvoyant",
+                "type": "Organization",
+                "score": null,
+                "repos_url": "https://api.github.com/users/teamclairvoyant/repos",
+                "avatar_url": "https://avatars.githubusercontent.com/u/11548527?v=4",
+                "url": "https://api.github.com/users/teamclairvoyant"
+              },
+              "url": "https://api.github.com/repos/teamclairvoyant/clairthon-serial-coders",
+              "fork": false
+            }
+          },
+          {
+            "name": "OrchestratorImplTest.java",
+            "url": "https://api.github.com/repositories/533234762/contents/src/test/java/com/cv/sc/pipeline/OrchestratorImplTest.java?ref=6d98846c6c37114433c7832f43ed094ed72ba009",
+            "repository": {
+              "id": "533234762",
+              "name": "clairthon-serial-coders",
+              "full_name": "teamclairvoyant/clairthon-serial-coders",
+              "accessible": false,
+              "owner": {
+                "id": 11548527,
+                "login": "teamclairvoyant",
+                "type": "Organization",
+                "score": null,
+                "repos_url": "https://api.github.com/users/teamclairvoyant/repos",
+                "avatar_url": "https://avatars.githubusercontent.com/u/11548527?v=4",
+                "url": "https://api.github.com/users/teamclairvoyant"
+              },
+              "url": "https://api.github.com/repos/teamclairvoyant/clairthon-serial-coders",
+              "fork": false
+            }
+          }
+        ]
+      }
+    ],
+    "repoSearchResults": [],
+    "fileSearchResults": [
+      {
+        "OrchestratorImplTest": [
+          {
+            "name": "multibarchart_Wed_Mar_23_2016_21.48.58.html",
+            "url": "https://api.github.com/repositories/53937138/contents/charts/multibarchart_Wed_Mar_23_2016_21.48.58.html?ref=28c94ae38f5d9ca325ff735a7c1a8d40b09b6746",
+            "repository": {
+              "id": "53937138",
+              "name": "rstuff-for-ser",
+              "full_name": "mtafiti/rstuff-for-ser",
+              "accessible": false,
+              "owner": {
+                "id": 1187199,
+                "login": "mtafiti",
+                "type": "User",
+                "score": null,
+                "repos_url": "https://api.github.com/users/mtafiti/repos",
+                "avatar_url": "https://avatars.githubusercontent.com/u/1187199?v=4",
+                "url": "https://api.github.com/users/mtafiti"
+              },
+              "url": "https://api.github.com/repos/mtafiti/rstuff-for-ser",
+              "fork": false
+            }
+          }
+        ]
+      }
+    ]
+  }

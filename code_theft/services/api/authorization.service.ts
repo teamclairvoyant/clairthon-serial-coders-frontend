@@ -1,6 +1,6 @@
 import axios from "axios";
 import { codePoliceRestApi } from "../../utils/businessRestApis";
-import { writeStorage } from "@rehooks/local-storage";
+import { writeStorage, deleteFromStorage } from "@rehooks/local-storage";
 
 export function loginApi(userCredentials: any) {
   return axios.get(codePoliceRestApi("auth/basic"), {
@@ -10,4 +10,9 @@ export function loginApi(userCredentials: any) {
 
 export function setToken(token: string) {
   writeStorage("token", token);
+}
+
+export function logoutFunctionality() {
+  deleteFromStorage("token");
+  window.history.forward();
 }

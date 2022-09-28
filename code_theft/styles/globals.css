@@ -28,3 +28,8 @@ a {
     background: black;
   }
 }
+
+// code-block-editor
+.code-block-editor > span {
+  height: 14rem;
+}

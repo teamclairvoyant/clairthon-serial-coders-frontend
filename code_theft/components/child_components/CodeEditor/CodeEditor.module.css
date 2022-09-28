@@ -1,0 +1,5 @@
+:global {
+  .code-block-editor > span {
+    height: 14rem;
+  }
+}
