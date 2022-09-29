@@ -1,0 +1,16 @@
+.pageHeader {
+  @apply bg-white;
+}
+
+.linksSection {
+  @apply flex gap-x-4;
+}
+
+.iconLink {
+  @apply flex justify-end items-end gap-x-2 text-[#1a90ff];
+}
+
+.btnAlignment {
+  display: flex;
+  place-items: center !important;
+}

@@ -1,8 +1,11 @@
 import styles from "./ConfigurationForm.module.css";
 import { Button, Form, Input, Checkbox, Card } from "antd";
+import CustomTagInput from "../CustomTagInput/CustomTagInput";
 
 type ConfigurationFormProps = {
   className?: string;
+  initialValues?: any;
+  btnText?: string | undefined;
   onFinishHandler: (configOptioins: any) => void;
   onFinishFailedHandler?: () => void;
 };
@@ -10,8 +13,10 @@ type ConfigurationFormProps = {
 function ConfigurationForm(props: ConfigurationFormProps) {
   const {
     className = "",
+    initialValues = {},
     onFinishHandler = () => {},
     onFinishFailedHandler = () => {},
+    btnText = undefined,
   } = props;
   const [form] = Form.useForm();
 
@@ -24,6 +29,7 @@ function ConfigurationForm(props: ConfigurationFormProps) {
         onFinish={onFinishHandler}
         onFinishFailed={onFinishFailedHandler}
         autoComplete="off"
+        initialValues={initialValues}
       >
         <div className={"grid grid-cols-12 gap-x-10 mr-20"}>
           <Form.Item
@@ -39,9 +45,9 @@ function ConfigurationForm(props: ConfigurationFormProps) {
 
           <Form.Item
             className="col-span-6"
-            label="Project Name"
+            label="Customer Name"
             name="customerName"
-            rules={[{ required: true, message: "Project name is mandatory!" }]}
+            rules={[{ required: true, message: "Customer name is mandatory!" }]}
           >
             <Input placeholder="Add the name of the project you want to secure" />
           </Form.Item>
@@ -81,7 +87,7 @@ eg. com.codetheft.java"
           <Form.Item
             className="col-span-8"
             label="File names"
-            name="repositoryNames"
+            name="fileNames"
             rules={[{ required: false, message: "file names are mandatory!" }]}
           >
             <Input placeholder="add filenames e.g: auth.java, crypto.js ..." />
@@ -102,6 +108,10 @@ eg. com.codetheft.java"
             <Input placeholder="Enter the email id where you want to be notified" />
           </Form.Item> */}
 
+          {/* <Form.Item className="col-span-8" label="Email Id for sending alerts">
+            <CustomTagInput />
+          </Form.Item> */}
+
           <div className="col-span-12  mt-4">
             <div className="flex gap-x-6 justify-end">
               <Form.Item
@@ -114,7 +124,7 @@ eg. com.codetheft.java"
 
               <Form.Item>
                 <Button type="primary" htmlType="submit">
-                  Create configuration
+                  {btnText ?? "Create Configuration"}
                 </Button>
               </Form.Item>
             </div>

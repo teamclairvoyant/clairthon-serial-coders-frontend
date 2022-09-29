@@ -1,18 +1,130 @@
+// @ts-nocheck
 import styles from "./ConfigurationSearchResults.module.css";
-import { Typography, Card, Avatar, Tabs } from "antd";
+import { Typography, Card, Avatar, Tabs, Empty, Result } from "antd";
 import CodeEditor from "../CodeEditor/CodeEditor";
-import { useMemo } from "react";
+import { useEffect, useMemo, useState } from "react";
+import { fetchSearchResults } from "../../../services/api/config/config.service";
+import { useRouter } from "next/router";
+import ResultsCard from "../Results/ResultsCard/ResultsCard";
+import ResultsUserCard from "../Results/ResultsUserCard/ResultsUserCard";
 
 const { Title, Text } = Typography;
 
 type ConfigurationSearchResultsProps = {};
 
 function ConfigurationSearchResults(props: ConfigurationSearchResultsProps) {
-  const Profile = () => (
-    <span className="flex justify-center items-center gap-x-3 w-min">
-      <Avatar src="https://joeschmoe.io/api/v1/random" />
-      <Text>Shubham kumar panday</Text>
-    </span>
+  const router = useRouter();
+  const { query } = router;
+  const [configId] = useState(query?.config_id);
+  const [results, setResults] = useState({
+    id: 1,
+    userSearchJsonResultString:
+      '[{"users":[{"id":1,"login":"bkpune","type":"ADMIN","score":100.0,"repos_url":null,"avatar_url":"https://facebook.com/bkpune","url":null}]}]',
+    contentSearchJsonResultString:
+      '[{"content":[{"name":"Test Content","url":"https://github.com/","repository":{"id":"1","name":"Test Repo","full_name":null,"accessible":null,"owner":null,"url":"https://github.com/teamclairvoyant/clairthon-serial-coders","fork":null}}]}]',
+    fileSearchJsonResultString:
+      '[{"files":[{"name":"Test File Search","url":"https://github.com/file","repository":{"id":"1","name":"Test Repo","full_name":null,"accessible":null,"owner":null,"url":"https://github.com/teamclairvoyant/clairthon-serial-coders","fork":null}}]}]',
+    userSearchResults: [
+      {
+        users: [
+          {
+            id: 1,
+            login: "bkpune",
+            type: "ADMIN",
+            score: 100,
+            repos_url: null,
+            avatar_url: "https://facebook.com/bkpune",
+            url: null,
+          },
+        ],
+      },
+    ],
+    contentSearchResults: [
+      {
+        content: [
+          {
+            name: "Test Content",
+            url: "https://github.com/",
+            repository: {
+              id: "1",
+              name: "Test Repo",
+              full_name: null,
+              accessible: null,
+              owner: null,
+              url: "https://github.com/teamclairvoyant/clairthon-serial-coders",
+              fork: null,
+            },
+          },
+        ],
+      },
+    ],
+    fileSearchResults: [
+      {
+        files: [
+          {
+            name: "Test File Search",
+            url: "https://github.com/file",
+            repository: {
+              id: "1",
+              name: "Test Repo",
+              full_name: null,
+              accessible: null,
+              owner: null,
+              url: "https://github.com/teamclairvoyant/clairthon-serial-coders",
+              fork: null,
+            },
+          },
+        ],
+      },
+    ],
+  });
+
+  useEffect(() => {
+    if (configId) {
+      fetchSearchResults({ configId }).then((response) => {
+        setResults(response);
+      });
+    }
+  }, [query?.config_id]);
+
+  const getUserSearchResults = useMemo(
+    () => results?.userSearchResults?.[0]?.users ?? [],
+    [results]
+  );
+
+  const getContentSearchResults = useMemo(
+    () => results?.contentSearchResults?.[0]?.content ?? [],
+    [results]
+  );
+
+  const getFileSearchResults = useMemo(
+    () => results?.fileSearchResults?.[0]?.files ?? [],
+    [results]
+  );
+
+  console.log("#995#: results are ", {
+    results,
+    getContentSearchResults,
+    getUserSearchResults,
+    getFileSearchResults,
+  });
+
+  const UserProfile = (props: any) => {
+    const { avatar = "https://joeschmoe.io/api/v1/random", username = "" } =
+      props;
+    return (
+      <Card.Meta
+        avatar={<Avatar src={avatar} />}
+        title={username}
+        description="This is the description"
+      />
+    );
+  };
+
+  const NoDataFound = () => (
+    <div className="h-60 flex justify-center items-center">
+      <Empty />
+    </div>
   );
 
   const items = useMemo(() => {
@@ -21,38 +133,67 @@ function ConfigurationSearchResults(props: ConfigurationSearchResultsProps) {
         label: "Contents",
         key: "1",
         children: (
-          <>
-            <Card title={<Profile />}>
-              <div className={styles.filePath}></div>
+          <div>
+            {getContentSearchResults?.length > 0 &&
+              getContentSearchResults?.map((result, id) => {
+                return (
+                  <ResultsCard
+                    key={`${new Date().getTime()}-${id}`}
+                    cardData={result}
+                  ></ResultsCard>
+                );
+              })}
 
-              <CodeEditor code={exampleCode} />
-            </Card>
-          </>
+            {getContentSearchResults?.length === 0 && <NoDataFound />}
+          </div>
         ),
       },
       {
         label: "Users",
         key: "2",
-        children: <></>,
+        children: (
+          <div>
+            {getUserSearchResults?.length > 0 &&
+              getUserSearchResults?.map((result, id) => {
+                return <ResultsUserCard result={result} />;
+              })}
+
+            {getUserSearchResults?.length === 0 && <NoDataFound />}
+          </div>
+        ),
       },
       {
         label: "Files",
         key: "3",
-        children: <></>,
+        children: (
+          <div>
+            {getFileSearchResults?.length > 0 &&
+              getFileSearchResults?.map((result, id) => {
+                return (
+                  <ResultsCard
+                    key={`${new Date().getTime()}-${id}`}
+                    cardData={result}
+                  ></ResultsCard>
+                );
+              })}
+
+            {getFileSearchResults?.length === 0 && <NoDataFound />}
+          </div>
+        ),
       },
-      {
-        label: "Repositories",
-        key: "4",
-        children: <></>,
-      },
+      // {
+      //   label: "Repositories",
+      //   key: "4",
+      //   children: <NoDataFound />,
+      // },
     ];
   }, []);
 
   return (
     <div className={styles.configurationSearchResultsContainer}>
-      <Title level={5}>Configuration Results</Title>
+      {/* <Title level={5}>Configuration Reports</Title> */}
 
-      <Tabs type="card" items={items} />
+      <Tabs type="card" items={items} className="custom-ant-tab" />
     </div>
   );
 }

@@ -43,11 +43,7 @@ function Header(props: HeaderProps) {
       backIcon={enableBackIcon ? <ArrowLeftOutlined /> : false}
       onBack={() => router.push("/home")}
       style={style}
-      title={
-        <Link href={"/home"}>
-          <CompanyLogo />
-        </Link>
-      }
+      title={<CompanyLogo />}
       subTitle={subTitle ?? "prevent your sensitive data from getting online"}
       extra={[
         <Link href="/code/config/view" key={1}>

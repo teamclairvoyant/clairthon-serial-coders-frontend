@@ -6,33 +6,38 @@ import { Empty, Button } from "antd";
 import { LoadingOutlined } from "@ant-design/icons";
 import { useEffect, useMemo, useState } from "react";
 import { fetchAllConfigurations } from "../../../services/api/config/config.service";
+import { storeConfigInLocal } from "../../../services/localStorageData/configuration";
 
 type ConfigurationsCardViewProps = {};
 
 function ConfigurationsCardView(props: ConfigurationsCardViewProps) {
   const router = useRouter();
   const [pageLoading, setPageLoading] = useState("SUCCESS");
-  const [configurationsData, setConfigurationsData] = useState(
-    new Array(100).fill("a")
-  );
+  const [configurationsData, setConfigurationsData] = useState([]);
+
+  useEffect(() => {
+    storeConfigInLocal(configurationsData);
+  }, [configurationsData]);
 
   const renderConfigurations = useMemo(
     () =>
       configurationsData?.length > 0 &&
-      configurationsData.map(() => (
+      configurationsData.map((configuration, id) => (
         <ConfigurationsCard
+          key={`${new Date().getTime()}-${id}`}
+          configuration={configuration}
           className={styles.configurationsListItems}
-          cardClickHandler={() => {
-            router.push("/code/config/1/results");
-          }}
         />
       )),
     [configurationsData]
   );
 
   useEffect(() => {
-    fetchAllConfigurations();
-  });
+    fetchAllConfigurations().then((response) => {
+      console.log("#995#: responses are ", response);
+      setConfigurationsData(response ?? []);
+    });
+  }, []);
 
   return (
     <div className={styles.configurationsListContainer}>
@@ -55,7 +60,7 @@ function ConfigurationsCardView(props: ConfigurationsCardViewProps) {
       {pageLoading === "NO_DATA" && (
         <div className="flex justify-center items-center">
           <Empty description="No configurations found">
-            <Button type="primary">Create new configurations</Button>
+            {/* <Button type="primary">Create new configurations</Button> */}
           </Empty>
         </div>
       )}

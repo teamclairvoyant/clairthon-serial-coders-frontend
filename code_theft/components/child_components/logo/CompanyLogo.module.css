@@ -1,6 +1,6 @@
 .logoContainer {
   @apply flex justify-center items-center gap-x-2;
-  @apply select-none;
+  @apply select-none cursor-pointer;
 }
 
 .logoIcon {

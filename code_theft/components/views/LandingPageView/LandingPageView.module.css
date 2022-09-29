@@ -8,9 +8,9 @@
 
 .miniInfo {
   @apply mt-10;
-  color: #ab526b;
+  color: #1a90ff;
 }
 
 .addConfigurationBtn {
-  @apply mt-2 w-52;
+  @apply mt-4 w-52;
 }

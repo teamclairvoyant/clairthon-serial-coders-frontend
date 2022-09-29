@@ -16,10 +16,7 @@ function PrimaryLayout(props: PrimaryLayoutProps) {
 
   return (
     <Layout className={styles.primaryLayoutContainer}>
-      <AppHeader
-        enableBackIcon={true}
-        style={{ position: "fixed", zIndex: 1, width: "100%" }}
-      />
+      <AppHeader style={{ position: "fixed", zIndex: 1, width: "100%" }} />
 
       <Content
         className="site-layout"
