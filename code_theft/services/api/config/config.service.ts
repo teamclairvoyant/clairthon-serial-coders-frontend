@@ -29,6 +29,13 @@ export function fetchAllConfigurations(configObj: any = {}) {
   ).then((response) => response.json());
 }
 
+export function triggerConfiguration(id: string) {
+  return fetch(
+    codePoliceRestApi(`search/config/${id}`),
+    getFetchRequestHeaders()
+  ).then((response) => response.json());
+}
+
 export function fetchSearchResults(configOptions: any = {}) {
   const { configId } = configOptions;
 

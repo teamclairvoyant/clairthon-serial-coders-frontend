@@ -115,7 +115,7 @@ eg. com.codetheft.java"
           <div className="col-span-12  mt-4">
             <div className="flex gap-x-6 justify-end">
               <Form.Item
-                name="run configuration"
+                name="scheduled"
                 valuePropName="checked"
                 className="select-none"
               >

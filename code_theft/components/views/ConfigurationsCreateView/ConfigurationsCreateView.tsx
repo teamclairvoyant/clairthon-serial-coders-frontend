@@ -1,6 +1,9 @@
 import ConfigurationForm from "../../child_components/ConfigurationForm/ConfigurationForm";
 import styles from "./ConfigurationsCreateView.module.css";
-import { createConfiguration } from "../../../services/api/config/config.service";
+import {
+  createConfiguration,
+  triggerConfiguration,
+} from "../../../services/api/config/config.service";
 import { useCallback } from "react";
 import { useRouter } from "next/router";
 
@@ -16,7 +19,6 @@ function ConfigurationsCreateView(props: ConfigurationsCreateViewProps) {
     const additional = {
       modifiedBy: "shubham@temporary.com",
       modifiedDate: "2022-09-23T12:06:40.971+00:00",
-      scheduled: true,
     };
 
     configOptions.codeSearchKeywords = generateArray(
@@ -33,10 +35,14 @@ function ConfigurationsCreateView(props: ConfigurationsCreateViewProps) {
 
     configOptions.fileNames = generateArray(configOptions?.fileNames ?? "");
 
+    configOptions.scheduled = configOptions.scheduled ?? false;
+
     const payload = { ...configOptions, ...additional };
 
-    createConfiguration(payload).then(function () {
-      router.push("/code/config/view");
+    createConfiguration(payload).then(function (response) {
+      triggerConfiguration(response?.data?.id).then((response) => {
+        router.push("/code/config/view");
+      });
     });
   };
 

@@ -47,3 +47,7 @@ a {
   fill: #1890ff !important;
   font-size: 1rem;
 }
+
+.configuration-list-container .ant-card-body {
+  height: 11rem !important;
+}

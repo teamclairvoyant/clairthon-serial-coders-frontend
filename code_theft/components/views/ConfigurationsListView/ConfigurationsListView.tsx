@@ -40,7 +40,9 @@ function ConfigurationsCardView(props: ConfigurationsCardViewProps) {
   }, []);
 
   return (
-    <div className={styles.configurationsListContainer}>
+    <div
+      className={`${styles.configurationsListContainer} configuration-list-container`}
+    >
       {pageLoading === "LOADING" && (
         <LoadingOutlined
           style={{
