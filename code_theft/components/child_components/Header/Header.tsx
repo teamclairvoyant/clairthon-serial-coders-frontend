@@ -5,7 +5,8 @@ import { ReactNode } from "react";
 import Link from "next/link";
 
 type HeaderProps = {
-  backIcon?: ReactNode | boolean;
+  backIcon?: ReactNode | boolean,
+  subTitle?: string
 };
 
 function Header(props: HeaderProps) {
@@ -21,7 +22,7 @@ function Header(props: HeaderProps) {
           <CompanyLogo />
         </Link>
       }
-      subTitle="prevent your sensitive data from getting online"
+      subTitle={props.subTitle || "prevent your sensitive data from getting online"}
     />
   );
 }

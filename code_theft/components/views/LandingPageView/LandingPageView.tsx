@@ -3,11 +3,13 @@ import Header from "../../child_components/Header/Header";
 import { Button, Card } from "antd";
 import Banner from "../../child_components/Banner/Banner";
 import PlusOutlined from "@ant-design/icons";
+import { useRouter } from "next/router";
 
 type LandingPageViewProps = {};
 
 function LandingPageView(props: LandingPageViewProps) {
   const {} = props;
+  const router = useRouter();
 
   return (
     <div className={styles.landingPageContainer}>
@@ -27,6 +29,9 @@ function LandingPageView(props: LandingPageViewProps) {
               type="primary"
               icon={<PlusOutlined />}
               block={false}
+              onClick={() => {
+                router.push('/configuration/create')
+              }}
             >
               Add new configuration
             </Button>

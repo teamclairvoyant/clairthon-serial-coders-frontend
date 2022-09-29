@@ -1,0 +1,2650 @@
+[
+    {
+      "key": "",
+      "title": "Any Language"
+    },
+    {
+      "key": "C",
+      "title": "C"
+    },
+    {
+      "key": "C#",
+      "title": "C#"
+    },
+    {
+      "key": "C++",
+      "title": "C++"
+    },
+    {
+      "key": "CoffeeScript",
+      "title": "CoffeeScript"
+    },
+    {
+      "key": "CSS",
+      "title": "CSS"
+    },
+    {
+      "key": "Dart",
+      "title": "Dart"
+    },
+    {
+      "key": "DM",
+      "title": "DM"
+    },
+    {
+      "key": "Elixir",
+      "title": "Elixir"
+    },
+    {
+      "key": "Go",
+      "title": "Go"
+    },
+    {
+      "key": "Groovy",
+      "title": "Groovy"
+    },
+    {
+      "key": "HTML",
+      "title": "HTML"
+    },
+    {
+      "key": "Java",
+      "title": "Java"
+    },
+    {
+      "key": "JavaScript",
+      "title": "JavaScript"
+    },
+    {
+      "key": "Kotlin",
+      "title": "Kotlin"
+    },
+    {
+      "key": "Objective-C",
+      "title": "Objective-C"
+    },
+    {
+      "key": "Perl",
+      "title": "Perl"
+    },
+    {
+      "key": "PHP",
+      "title": "PHP"
+    },
+    {
+      "key": "PowerShell",
+      "title": "PowerShell"
+    },
+    {
+      "key": "Python",
+      "title": "Python"
+    },
+    {
+      "key": "Ruby",
+      "title": "Ruby"
+    },
+    {
+      "key": "Rust",
+      "title": "Rust"
+    },
+    {
+      "key": "Scala",
+      "title": "Scala"
+    },
+    {
+      "key": "Shell",
+      "title": "Shell"
+    },
+    {
+      "key": "Swift",
+      "title": "Swift"
+    },
+    {
+      "key": "TypeScript",
+      "title": "TypeScript"
+    },
+    {
+      "key": "1C Enterprise",
+      "title": "1C Enterprise"
+    },
+    {
+      "key": "2-Dimensional Array",
+      "title": "2-Dimensional Array"
+    },
+    {
+      "key": "4D",
+      "title": "4D"
+    },
+    {
+      "key": "ABAP",
+      "title": "ABAP"
+    },
+    {
+      "key": "ABAP CDS",
+      "title": "ABAP CDS"
+    },
+    {
+      "key": "ABNF",
+      "title": "ABNF"
+    },
+    {
+      "key": "ActionScript",
+      "title": "ActionScript"
+    },
+    {
+      "key": "Ada",
+      "title": "Ada"
+    },
+    {
+      "key": "Adblock Filter List",
+      "title": "Adblock Filter List"
+    },
+    {
+      "key": "Adobe Font Metrics",
+      "title": "Adobe Font Metrics"
+    },
+    {
+      "key": "Agda",
+      "title": "Agda"
+    },
+    {
+      "key": "AGS Script",
+      "title": "AGS Script"
+    },
+    {
+      "key": "AIDL",
+      "title": "AIDL"
+    },
+    {
+      "key": "AL",
+      "title": "AL"
+    },
+    {
+      "key": "Alloy",
+      "title": "Alloy"
+    },
+    {
+      "key": "Alpine Abuild",
+      "title": "Alpine Abuild"
+    },
+    {
+      "key": "Altium Designer",
+      "title": "Altium Designer"
+    },
+    {
+      "key": "AMPL",
+      "title": "AMPL"
+    },
+    {
+      "key": "AngelScript",
+      "title": "AngelScript"
+    },
+    {
+      "key": "Ant Build System",
+      "title": "Ant Build System"
+    },
+    {
+      "key": "Antlers",
+      "title": "Antlers"
+    },
+    {
+      "key": "ANTLR",
+      "title": "ANTLR"
+    },
+    {
+      "key": "ApacheConf",
+      "title": "ApacheConf"
+    },
+    {
+      "key": "Apex",
+      "title": "Apex"
+    },
+    {
+      "key": "API Blueprint",
+      "title": "API Blueprint"
+    },
+    {
+      "key": "APL",
+      "title": "APL"
+    },
+    {
+      "key": "Apollo Guidance Computer",
+      "title": "Apollo Guidance Computer"
+    },
+    {
+      "key": "AppleScript",
+      "title": "AppleScript"
+    },
+    {
+      "key": "Arc",
+      "title": "Arc"
+    },
+    {
+      "key": "AsciiDoc",
+      "title": "AsciiDoc"
+    },
+    {
+      "key": "ASL",
+      "title": "ASL"
+    },
+    {
+      "key": "ASN.1",
+      "title": "ASN.1"
+    },
+    {
+      "key": "ASP.NET",
+      "title": "ASP.NET"
+    },
+    {
+      "key": "AspectJ",
+      "title": "AspectJ"
+    },
+    {
+      "key": "Assembly",
+      "title": "Assembly"
+    },
+    {
+      "key": "Astro",
+      "title": "Astro"
+    },
+    {
+      "key": "Asymptote",
+      "title": "Asymptote"
+    },
+    {
+      "key": "ATS",
+      "title": "ATS"
+    },
+    {
+      "key": "Augeas",
+      "title": "Augeas"
+    },
+    {
+      "key": "AutoHotkey",
+      "title": "AutoHotkey"
+    },
+    {
+      "key": "AutoIt",
+      "title": "AutoIt"
+    },
+    {
+      "key": "Avro IDL",
+      "title": "Avro IDL"
+    },
+    {
+      "key": "Awk",
+      "title": "Awk"
+    },
+    {
+      "key": "Ballerina",
+      "title": "Ballerina"
+    },
+    {
+      "key": "BASIC",
+      "title": "BASIC"
+    },
+    {
+      "key": "Batchfile",
+      "title": "Batchfile"
+    },
+    {
+      "key": "Beef",
+      "title": "Beef"
+    },
+    {
+      "key": "Befunge",
+      "title": "Befunge"
+    },
+    {
+      "key": "Berry",
+      "title": "Berry"
+    },
+    {
+      "key": "BibTeX",
+      "title": "BibTeX"
+    },
+    {
+      "key": "Bicep",
+      "title": "Bicep"
+    },
+    {
+      "key": "Bikeshed",
+      "title": "Bikeshed"
+    },
+    {
+      "key": "Bison",
+      "title": "Bison"
+    },
+    {
+      "key": "BitBake",
+      "title": "BitBake"
+    },
+    {
+      "key": "Blade",
+      "title": "Blade"
+    },
+    {
+      "key": "BlitzBasic",
+      "title": "BlitzBasic"
+    },
+    {
+      "key": "BlitzMax",
+      "title": "BlitzMax"
+    },
+    {
+      "key": "Bluespec",
+      "title": "Bluespec"
+    },
+    {
+      "key": "Boo",
+      "title": "Boo"
+    },
+    {
+      "key": "Boogie",
+      "title": "Boogie"
+    },
+    {
+      "key": "Brainfuck",
+      "title": "Brainfuck"
+    },
+    {
+      "key": "BrighterScript",
+      "title": "BrighterScript"
+    },
+    {
+      "key": "Brightscript",
+      "title": "Brightscript"
+    },
+    {
+      "key": "Browserslist",
+      "title": "Browserslist"
+    },
+    {
+      "key": "C-ObjDump",
+      "title": "C-ObjDump"
+    },
+    {
+      "key": "C2hs Haskell",
+      "title": "C2hs Haskell"
+    },
+    {
+      "key": "Cabal Config",
+      "title": "Cabal Config"
+    },
+    {
+      "key": "Cadence",
+      "title": "Cadence"
+    },
+    {
+      "key": "Cairo",
+      "title": "Cairo"
+    },
+    {
+      "key": "CameLIGO",
+      "title": "CameLIGO"
+    },
+    {
+      "key": "CAP CDS",
+      "title": "CAP CDS"
+    },
+    {
+      "key": "Cap'n Proto",
+      "title": "Cap'n Proto"
+    },
+    {
+      "key": "CartoCSS",
+      "title": "CartoCSS"
+    },
+    {
+      "key": "Ceylon",
+      "title": "Ceylon"
+    },
+    {
+      "key": "Chapel",
+      "title": "Chapel"
+    },
+    {
+      "key": "Charity",
+      "title": "Charity"
+    },
+    {
+      "key": "Checksums",
+      "title": "Checksums"
+    },
+    {
+      "key": "ChucK",
+      "title": "ChucK"
+    },
+    {
+      "key": "CIL",
+      "title": "CIL"
+    },
+    {
+      "key": "Cirru",
+      "title": "Cirru"
+    },
+    {
+      "key": "Clarion",
+      "title": "Clarion"
+    },
+    {
+      "key": "Clarity",
+      "title": "Clarity"
+    },
+    {
+      "key": "Classic ASP",
+      "title": "Classic ASP"
+    },
+    {
+      "key": "Clean",
+      "title": "Clean"
+    },
+    {
+      "key": "Click",
+      "title": "Click"
+    },
+    {
+      "key": "CLIPS",
+      "title": "CLIPS"
+    },
+    {
+      "key": "Clojure",
+      "title": "Clojure"
+    },
+    {
+      "key": "Closure Templates",
+      "title": "Closure Templates"
+    },
+    {
+      "key": "Cloud Firestore Security Rules",
+      "title": "Cloud Firestore Security Rules"
+    },
+    {
+      "key": "CMake",
+      "title": "CMake"
+    },
+    {
+      "key": "COBOL",
+      "title": "COBOL"
+    },
+    {
+      "key": "CODEOWNERS",
+      "title": "CODEOWNERS"
+    },
+    {
+      "key": "CodeQL",
+      "title": "CodeQL"
+    },
+    {
+      "key": "ColdFusion",
+      "title": "ColdFusion"
+    },
+    {
+      "key": "ColdFusion CFC",
+      "title": "ColdFusion CFC"
+    },
+    {
+      "key": "COLLADA",
+      "title": "COLLADA"
+    },
+    {
+      "key": "Common Lisp",
+      "title": "Common Lisp"
+    },
+    {
+      "key": "Common Workflow Language",
+      "title": "Common Workflow Language"
+    },
+    {
+      "key": "Component Pascal",
+      "title": "Component Pascal"
+    },
+    {
+      "key": "CoNLL-U",
+      "title": "CoNLL-U"
+    },
+    {
+      "key": "Cool",
+      "title": "Cool"
+    },
+    {
+      "key": "Coq",
+      "title": "Coq"
+    },
+    {
+      "key": "Cpp-ObjDump",
+      "title": "Cpp-ObjDump"
+    },
+    {
+      "key": "Creole",
+      "title": "Creole"
+    },
+    {
+      "key": "Crystal",
+      "title": "Crystal"
+    },
+    {
+      "key": "CSON",
+      "title": "CSON"
+    },
+    {
+      "key": "Csound",
+      "title": "Csound"
+    },
+    {
+      "key": "Csound Document",
+      "title": "Csound Document"
+    },
+    {
+      "key": "Csound Score",
+      "title": "Csound Score"
+    },
+    {
+      "key": "CSV",
+      "title": "CSV"
+    },
+    {
+      "key": "Cuda",
+      "title": "Cuda"
+    },
+    {
+      "key": "CUE",
+      "title": "CUE"
+    },
+    {
+      "key": "Cue Sheet",
+      "title": "Cue Sheet"
+    },
+    {
+      "key": "cURL Config",
+      "title": "cURL Config"
+    },
+    {
+      "key": "Curry",
+      "title": "Curry"
+    },
+    {
+      "key": "CWeb",
+      "title": "CWeb"
+    },
+    {
+      "key": "Cycript",
+      "title": "Cycript"
+    },
+    {
+      "key": "Cython",
+      "title": "Cython"
+    },
+    {
+      "key": "D",
+      "title": "D"
+    },
+    {
+      "key": "D-ObjDump",
+      "title": "D-ObjDump"
+    },
+    {
+      "key": "Dafny",
+      "title": "Dafny"
+    },
+    {
+      "key": "Darcs Patch",
+      "title": "Darcs Patch"
+    },
+    {
+      "key": "DataWeave",
+      "title": "DataWeave"
+    },
+    {
+      "key": "Debian Package Control File",
+      "title": "Debian Package Control File"
+    },
+    {
+      "key": "DenizenScript",
+      "title": "DenizenScript"
+    },
+    {
+      "key": "desktop",
+      "title": "desktop"
+    },
+    {
+      "key": "Dhall",
+      "title": "Dhall"
+    },
+    {
+      "key": "Diff",
+      "title": "Diff"
+    },
+    {
+      "key": "DIGITAL Command Language",
+      "title": "DIGITAL Command Language"
+    },
+    {
+      "key": "dircolors",
+      "title": "dircolors"
+    },
+    {
+      "key": "DirectX 3D File",
+      "title": "DirectX 3D File"
+    },
+    {
+      "key": "DNS Zone",
+      "title": "DNS Zone"
+    },
+    {
+      "key": "Dockerfile",
+      "title": "Dockerfile"
+    },
+    {
+      "key": "Dogescript",
+      "title": "Dogescript"
+    },
+    {
+      "key": "DTrace",
+      "title": "DTrace"
+    },
+    {
+      "key": "Dylan",
+      "title": "Dylan"
+    },
+    {
+      "key": "E",
+      "title": "E"
+    },
+    {
+      "key": "E-mail",
+      "title": "E-mail"
+    },
+    {
+      "key": "Eagle",
+      "title": "Eagle"
+    },
+    {
+      "key": "Earthly",
+      "title": "Earthly"
+    },
+    {
+      "key": "Easybuild",
+      "title": "Easybuild"
+    },
+    {
+      "key": "EBNF",
+      "title": "EBNF"
+    },
+    {
+      "key": "eC",
+      "title": "eC"
+    },
+    {
+      "key": "Ecere Projects",
+      "title": "Ecere Projects"
+    },
+    {
+      "key": "ECL",
+      "title": "ECL"
+    },
+    {
+      "key": "ECLiPSe",
+      "title": "ECLiPSe"
+    },
+    {
+      "key": "EditorConfig",
+      "title": "EditorConfig"
+    },
+    {
+      "key": "Edje Data Collection",
+      "title": "Edje Data Collection"
+    },
+    {
+      "key": "edn",
+      "title": "edn"
+    },
+    {
+      "key": "Eiffel",
+      "title": "Eiffel"
+    },
+    {
+      "key": "EJS",
+      "title": "EJS"
+    },
+    {
+      "key": "Elm",
+      "title": "Elm"
+    },
+    {
+      "key": "Elvish",
+      "title": "Elvish"
+    },
+    {
+      "key": "Emacs Lisp",
+      "title": "Emacs Lisp"
+    },
+    {
+      "key": "EmberScript",
+      "title": "EmberScript"
+    },
+    {
+      "key": "EQ",
+      "title": "EQ"
+    },
+    {
+      "key": "Erlang",
+      "title": "Erlang"
+    },
+    {
+      "key": "Euphoria",
+      "title": "Euphoria"
+    },
+    {
+      "key": "F#",
+      "title": "F#"
+    },
+    {
+      "key": "F*",
+      "title": "F*"
+    },
+    {
+      "key": "Factor",
+      "title": "Factor"
+    },
+    {
+      "key": "Fancy",
+      "title": "Fancy"
+    },
+    {
+      "key": "Fantom",
+      "title": "Fantom"
+    },
+    {
+      "key": "Faust",
+      "title": "Faust"
+    },
+    {
+      "key": "Fennel",
+      "title": "Fennel"
+    },
+    {
+      "key": "FIGlet Font",
+      "title": "FIGlet Font"
+    },
+    {
+      "key": "Filebench WML",
+      "title": "Filebench WML"
+    },
+    {
+      "key": "Filterscript",
+      "title": "Filterscript"
+    },
+    {
+      "key": "fish",
+      "title": "fish"
+    },
+    {
+      "key": "Fluent",
+      "title": "Fluent"
+    },
+    {
+      "key": "FLUX",
+      "title": "FLUX"
+    },
+    {
+      "key": "Formatted",
+      "title": "Formatted"
+    },
+    {
+      "key": "Forth",
+      "title": "Forth"
+    },
+    {
+      "key": "Fortran",
+      "title": "Fortran"
+    },
+    {
+      "key": "Fortran Free Form",
+      "title": "Fortran Free Form"
+    },
+    {
+      "key": "FreeBasic",
+      "title": "FreeBasic"
+    },
+    {
+      "key": "FreeMarker",
+      "title": "FreeMarker"
+    },
+    {
+      "key": "Frege",
+      "title": "Frege"
+    },
+    {
+      "key": "Futhark",
+      "title": "Futhark"
+    },
+    {
+      "key": "G-code",
+      "title": "G-code"
+    },
+    {
+      "key": "Game Maker Language",
+      "title": "Game Maker Language"
+    },
+    {
+      "key": "GAML",
+      "title": "GAML"
+    },
+    {
+      "key": "GAMS",
+      "title": "GAMS"
+    },
+    {
+      "key": "GAP",
+      "title": "GAP"
+    },
+    {
+      "key": "GCC Machine Description",
+      "title": "GCC Machine Description"
+    },
+    {
+      "key": "GDB",
+      "title": "GDB"
+    },
+    {
+      "key": "GDScript",
+      "title": "GDScript"
+    },
+    {
+      "key": "GEDCOM",
+      "title": "GEDCOM"
+    },
+    {
+      "key": "Gemfile.lock",
+      "title": "Gemfile.lock"
+    },
+    {
+      "key": "Gemini",
+      "title": "Gemini"
+    },
+    {
+      "key": "Genero",
+      "title": "Genero"
+    },
+    {
+      "key": "Genero Forms",
+      "title": "Genero Forms"
+    },
+    {
+      "key": "Genie",
+      "title": "Genie"
+    },
+    {
+      "key": "Genshi",
+      "title": "Genshi"
+    },
+    {
+      "key": "Gentoo Ebuild",
+      "title": "Gentoo Ebuild"
+    },
+    {
+      "key": "Gentoo Eclass",
+      "title": "Gentoo Eclass"
+    },
+    {
+      "key": "Gerber Image",
+      "title": "Gerber Image"
+    },
+    {
+      "key": "Gettext Catalog",
+      "title": "Gettext Catalog"
+    },
+    {
+      "key": "Gherkin",
+      "title": "Gherkin"
+    },
+    {
+      "key": "Git Attributes",
+      "title": "Git Attributes"
+    },
+    {
+      "key": "Git Config",
+      "title": "Git Config"
+    },
+    {
+      "key": "Git Revision List",
+      "title": "Git Revision List"
+    },
+    {
+      "key": "Gleam",
+      "title": "Gleam"
+    },
+    {
+      "key": "GLSL",
+      "title": "GLSL"
+    },
+    {
+      "key": "Glyph",
+      "title": "Glyph"
+    },
+    {
+      "key": "Glyph Bitmap Distribution Format",
+      "title": "Glyph Bitmap Distribution Format"
+    },
+    {
+      "key": "GN",
+      "title": "GN"
+    },
+    {
+      "key": "Gnuplot",
+      "title": "Gnuplot"
+    },
+    {
+      "key": "Go Checksums",
+      "title": "Go Checksums"
+    },
+    {
+      "key": "Go Module",
+      "title": "Go Module"
+    },
+    {
+      "key": "Golo",
+      "title": "Golo"
+    },
+    {
+      "key": "Gosu",
+      "title": "Gosu"
+    },
+    {
+      "key": "Grace",
+      "title": "Grace"
+    },
+    {
+      "key": "Gradle",
+      "title": "Gradle"
+    },
+    {
+      "key": "Grammatical Framework",
+      "title": "Grammatical Framework"
+    },
+    {
+      "key": "Graph Modeling Language",
+      "title": "Graph Modeling Language"
+    },
+    {
+      "key": "GraphQL",
+      "title": "GraphQL"
+    },
+    {
+      "key": "Graphviz (DOT)",
+      "title": "Graphviz (DOT)"
+    },
+    {
+      "key": "Groovy Server Pages",
+      "title": "Groovy Server Pages"
+    },
+    {
+      "key": "GSC",
+      "title": "GSC"
+    },
+    {
+      "key": "Hack",
+      "title": "Hack"
+    },
+    {
+      "key": "Haml",
+      "title": "Haml"
+    },
+    {
+      "key": "Handlebars",
+      "title": "Handlebars"
+    },
+    {
+      "key": "HAProxy",
+      "title": "HAProxy"
+    },
+    {
+      "key": "Harbour",
+      "title": "Harbour"
+    },
+    {
+      "key": "Haskell",
+      "title": "Haskell"
+    },
+    {
+      "key": "Haxe",
+      "title": "Haxe"
+    },
+    {
+      "key": "HCL",
+      "title": "HCL"
+    },
+    {
+      "key": "HiveQL",
+      "title": "HiveQL"
+    },
+    {
+      "key": "HLSL",
+      "title": "HLSL"
+    },
+    {
+      "key": "HOCON",
+      "title": "HOCON"
+    },
+    {
+      "key": "HolyC",
+      "title": "HolyC"
+    },
+    {
+      "key": "hoon",
+      "title": "hoon"
+    },
+    {
+      "key": "HTML+ECR",
+      "title": "HTML+ECR"
+    },
+    {
+      "key": "HTML+EEX",
+      "title": "HTML+EEX"
+    },
+    {
+      "key": "HTML+ERB",
+      "title": "HTML+ERB"
+    },
+    {
+      "key": "HTML+PHP",
+      "title": "HTML+PHP"
+    },
+    {
+      "key": "HTML+Razor",
+      "title": "HTML+Razor"
+    },
+    {
+      "key": "HTTP",
+      "title": "HTTP"
+    },
+    {
+      "key": "HXML",
+      "title": "HXML"
+    },
+    {
+      "key": "Hy",
+      "title": "Hy"
+    },
+    {
+      "key": "HyPhy",
+      "title": "HyPhy"
+    },
+    {
+      "key": "IDL",
+      "title": "IDL"
+    },
+    {
+      "key": "Idris",
+      "title": "Idris"
+    },
+    {
+      "key": "Ignore List",
+      "title": "Ignore List"
+    },
+    {
+      "key": "IGOR Pro",
+      "title": "IGOR Pro"
+    },
+    {
+      "key": "ImageJ Macro",
+      "title": "ImageJ Macro"
+    },
+    {
+      "key": "Inform 7",
+      "title": "Inform 7"
+    },
+    {
+      "key": "INI",
+      "title": "INI"
+    },
+    {
+      "key": "Inno Setup",
+      "title": "Inno Setup"
+    },
+    {
+      "key": "Io",
+      "title": "Io"
+    },
+    {
+      "key": "Ioke",
+      "title": "Ioke"
+    },
+    {
+      "key": "IRC log",
+      "title": "IRC log"
+    },
+    {
+      "key": "Isabelle",
+      "title": "Isabelle"
+    },
+    {
+      "key": "Isabelle ROOT",
+      "title": "Isabelle ROOT"
+    },
+    {
+      "key": "J",
+      "title": "J"
+    },
+    {
+      "key": "Janet",
+      "title": "Janet"
+    },
+    {
+      "key": "JAR Manifest",
+      "title": "JAR Manifest"
+    },
+    {
+      "key": "Jasmin",
+      "title": "Jasmin"
+    },
+    {
+      "key": "Java Properties",
+      "title": "Java Properties"
+    },
+    {
+      "key": "Java Server Pages",
+      "title": "Java Server Pages"
+    },
+    {
+      "key": "JavaScript+ERB",
+      "title": "JavaScript+ERB"
+    },
+    {
+      "key": "Jest Snapshot",
+      "title": "Jest Snapshot"
+    },
+    {
+      "key": "JetBrains MPS",
+      "title": "JetBrains MPS"
+    },
+    {
+      "key": "JFlex",
+      "title": "JFlex"
+    },
+    {
+      "key": "Jinja",
+      "title": "Jinja"
+    },
+    {
+      "key": "Jison",
+      "title": "Jison"
+    },
+    {
+      "key": "Jison Lex",
+      "title": "Jison Lex"
+    },
+    {
+      "key": "Jolie",
+      "title": "Jolie"
+    },
+    {
+      "key": "jq",
+      "title": "jq"
+    },
+    {
+      "key": "JSON",
+      "title": "JSON"
+    },
+    {
+      "key": "JSON with Comments",
+      "title": "JSON with Comments"
+    },
+    {
+      "key": "JSON5",
+      "title": "JSON5"
+    },
+    {
+      "key": "JSONiq",
+      "title": "JSONiq"
+    },
+    {
+      "key": "JSONLD",
+      "title": "JSONLD"
+    },
+    {
+      "key": "Jsonnet",
+      "title": "Jsonnet"
+    },
+    {
+      "key": "Julia",
+      "title": "Julia"
+    },
+    {
+      "key": "Jupyter Notebook",
+      "title": "Jupyter Notebook"
+    },
+    {
+      "key": "Kaitai Struct",
+      "title": "Kaitai Struct"
+    },
+    {
+      "key": "KakouneScript",
+      "title": "KakouneScript"
+    },
+    {
+      "key": "KiCad Layout",
+      "title": "KiCad Layout"
+    },
+    {
+      "key": "KiCad Legacy Layout",
+      "title": "KiCad Legacy Layout"
+    },
+    {
+      "key": "KiCad Schematic",
+      "title": "KiCad Schematic"
+    },
+    {
+      "key": "Kit",
+      "title": "Kit"
+    },
+    {
+      "key": "KRL",
+      "title": "KRL"
+    },
+    {
+      "key": "Kusto",
+      "title": "Kusto"
+    },
+    {
+      "key": "kvlang",
+      "title": "kvlang"
+    },
+    {
+      "key": "LabVIEW",
+      "title": "LabVIEW"
+    },
+    {
+      "key": "Lark",
+      "title": "Lark"
+    },
+    {
+      "key": "Lasso",
+      "title": "Lasso"
+    },
+    {
+      "key": "Latte",
+      "title": "Latte"
+    },
+    {
+      "key": "Lean",
+      "title": "Lean"
+    },
+    {
+      "key": "Less",
+      "title": "Less"
+    },
+    {
+      "key": "Lex",
+      "title": "Lex"
+    },
+    {
+      "key": "LFE",
+      "title": "LFE"
+    },
+    {
+      "key": "LigoLANG",
+      "title": "LigoLANG"
+    },
+    {
+      "key": "LilyPond",
+      "title": "LilyPond"
+    },
+    {
+      "key": "Limbo",
+      "title": "Limbo"
+    },
+    {
+      "key": "Linker Script",
+      "title": "Linker Script"
+    },
+    {
+      "key": "Linux Kernel Module",
+      "title": "Linux Kernel Module"
+    },
+    {
+      "key": "Liquid",
+      "title": "Liquid"
+    },
+    {
+      "key": "Literate Agda",
+      "title": "Literate Agda"
+    },
+    {
+      "key": "Literate CoffeeScript",
+      "title": "Literate CoffeeScript"
+    },
+    {
+      "key": "Literate Haskell",
+      "title": "Literate Haskell"
+    },
+    {
+      "key": "LiveScript",
+      "title": "LiveScript"
+    },
+    {
+      "key": "LLVM",
+      "title": "LLVM"
+    },
+    {
+      "key": "Logos",
+      "title": "Logos"
+    },
+    {
+      "key": "Logtalk",
+      "title": "Logtalk"
+    },
+    {
+      "key": "LOLCODE",
+      "title": "LOLCODE"
+    },
+    {
+      "key": "LookML",
+      "title": "LookML"
+    },
+    {
+      "key": "LoomScript",
+      "title": "LoomScript"
+    },
+    {
+      "key": "LSL",
+      "title": "LSL"
+    },
+    {
+      "key": "LTspice Symbol",
+      "title": "LTspice Symbol"
+    },
+    {
+      "key": "Lua",
+      "title": "Lua"
+    },
+    {
+      "key": "M",
+      "title": "M"
+    },
+    {
+      "key": "M4",
+      "title": "M4"
+    },
+    {
+      "key": "M4Sugar",
+      "title": "M4Sugar"
+    },
+    {
+      "key": "Macaulay2",
+      "title": "Macaulay2"
+    },
+    {
+      "key": "Makefile",
+      "title": "Makefile"
+    },
+    {
+      "key": "Mako",
+      "title": "Mako"
+    },
+    {
+      "key": "Markdown",
+      "title": "Markdown"
+    },
+    {
+      "key": "Marko",
+      "title": "Marko"
+    },
+    {
+      "key": "Mask",
+      "title": "Mask"
+    },
+    {
+      "key": "Mathematica",
+      "title": "Mathematica"
+    },
+    {
+      "key": "MATLAB",
+      "title": "MATLAB"
+    },
+    {
+      "key": "Maven POM",
+      "title": "Maven POM"
+    },
+    {
+      "key": "Max",
+      "title": "Max"
+    },
+    {
+      "key": "MAXScript",
+      "title": "MAXScript"
+    },
+    {
+      "key": "mcfunction",
+      "title": "mcfunction"
+    },
+    {
+      "key": "Mercury",
+      "title": "Mercury"
+    },
+    {
+      "key": "Meson",
+      "title": "Meson"
+    },
+    {
+      "key": "Metal",
+      "title": "Metal"
+    },
+    {
+      "key": "Microsoft Developer Studio Project",
+      "title": "Microsoft Developer Studio Project"
+    },
+    {
+      "key": "Microsoft Visual Studio Solution",
+      "title": "Microsoft Visual Studio Solution"
+    },
+    {
+      "key": "MiniD",
+      "title": "MiniD"
+    },
+    {
+      "key": "MiniYAML",
+      "title": "MiniYAML"
+    },
+    {
+      "key": "Mint",
+      "title": "Mint"
+    },
+    {
+      "key": "Mirah",
+      "title": "Mirah"
+    },
+    {
+      "key": "mIRC Script",
+      "title": "mIRC Script"
+    },
+    {
+      "key": "MLIR",
+      "title": "MLIR"
+    },
+    {
+      "key": "Modelica",
+      "title": "Modelica"
+    },
+    {
+      "key": "Modula-2",
+      "title": "Modula-2"
+    },
+    {
+      "key": "Modula-3",
+      "title": "Modula-3"
+    },
+    {
+      "key": "Module Management System",
+      "title": "Module Management System"
+    },
+    {
+      "key": "Monkey",
+      "title": "Monkey"
+    },
+    {
+      "key": "Monkey C",
+      "title": "Monkey C"
+    },
+    {
+      "key": "Moocode",
+      "title": "Moocode"
+    },
+    {
+      "key": "MoonScript",
+      "title": "MoonScript"
+    },
+    {
+      "key": "Motoko",
+      "title": "Motoko"
+    },
+    {
+      "key": "Motorola 68K Assembly",
+      "title": "Motorola 68K Assembly"
+    },
+    {
+      "key": "Move",
+      "title": "Move"
+    },
+    {
+      "key": "MQL4",
+      "title": "MQL4"
+    },
+    {
+      "key": "MQL5",
+      "title": "MQL5"
+    },
+    {
+      "key": "MTML",
+      "title": "MTML"
+    },
+    {
+      "key": "MUF",
+      "title": "MUF"
+    },
+    {
+      "key": "mupad",
+      "title": "mupad"
+    },
+    {
+      "key": "Muse",
+      "title": "Muse"
+    },
+    {
+      "key": "Mustache",
+      "title": "Mustache"
+    },
+    {
+      "key": "Myghty",
+      "title": "Myghty"
+    },
+    {
+      "key": "nanorc",
+      "title": "nanorc"
+    },
+    {
+      "key": "Nasal",
+      "title": "Nasal"
+    },
+    {
+      "key": "NASL",
+      "title": "NASL"
+    },
+    {
+      "key": "NCL",
+      "title": "NCL"
+    },
+    {
+      "key": "Nearley",
+      "title": "Nearley"
+    },
+    {
+      "key": "Nemerle",
+      "title": "Nemerle"
+    },
+    {
+      "key": "NEON",
+      "title": "NEON"
+    },
+    {
+      "key": "nesC",
+      "title": "nesC"
+    },
+    {
+      "key": "NetLinx",
+      "title": "NetLinx"
+    },
+    {
+      "key": "NetLinx+ERB",
+      "title": "NetLinx+ERB"
+    },
+    {
+      "key": "NetLogo",
+      "title": "NetLogo"
+    },
+    {
+      "key": "NewLisp",
+      "title": "NewLisp"
+    },
+    {
+      "key": "Nextflow",
+      "title": "Nextflow"
+    },
+    {
+      "key": "Nginx",
+      "title": "Nginx"
+    },
+    {
+      "key": "Nim",
+      "title": "Nim"
+    },
+    {
+      "key": "Ninja",
+      "title": "Ninja"
+    },
+    {
+      "key": "Nit",
+      "title": "Nit"
+    },
+    {
+      "key": "Nix",
+      "title": "Nix"
+    },
+    {
+      "key": "NL",
+      "title": "NL"
+    },
+    {
+      "key": "NPM Config",
+      "title": "NPM Config"
+    },
+    {
+      "key": "NSIS",
+      "title": "NSIS"
+    },
+    {
+      "key": "Nu",
+      "title": "Nu"
+    },
+    {
+      "key": "NumPy",
+      "title": "NumPy"
+    },
+    {
+      "key": "Nunjucks",
+      "title": "Nunjucks"
+    },
+    {
+      "key": "NWScript",
+      "title": "NWScript"
+    },
+    {
+      "key": "ObjDump",
+      "title": "ObjDump"
+    },
+    {
+      "key": "Object Data Instance Notation",
+      "title": "Object Data Instance Notation"
+    },
+    {
+      "key": "Objective-C++",
+      "title": "Objective-C++"
+    },
+    {
+      "key": "Objective-J",
+      "title": "Objective-J"
+    },
+    {
+      "key": "ObjectScript",
+      "title": "ObjectScript"
+    },
+    {
+      "key": "OCaml",
+      "title": "OCaml"
+    },
+    {
+      "key": "Odin",
+      "title": "Odin"
+    },
+    {
+      "key": "Omgrofl",
+      "title": "Omgrofl"
+    },
+    {
+      "key": "ooc",
+      "title": "ooc"
+    },
+    {
+      "key": "Opa",
+      "title": "Opa"
+    },
+    {
+      "key": "Opal",
+      "title": "Opal"
+    },
+    {
+      "key": "Open Policy Agent",
+      "title": "Open Policy Agent"
+    },
+    {
+      "key": "OpenCL",
+      "title": "OpenCL"
+    },
+    {
+      "key": "OpenEdge ABL",
+      "title": "OpenEdge ABL"
+    },
+    {
+      "key": "OpenQASM",
+      "title": "OpenQASM"
+    },
+    {
+      "key": "OpenRC runscript",
+      "title": "OpenRC runscript"
+    },
+    {
+      "key": "OpenSCAD",
+      "title": "OpenSCAD"
+    },
+    {
+      "key": "OpenStep Property List",
+      "title": "OpenStep Property List"
+    },
+    {
+      "key": "OpenType Feature File",
+      "title": "OpenType Feature File"
+    },
+    {
+      "key": "Org",
+      "title": "Org"
+    },
+    {
+      "key": "Ox",
+      "title": "Ox"
+    },
+    {
+      "key": "Oxygene",
+      "title": "Oxygene"
+    },
+    {
+      "key": "Oz",
+      "title": "Oz"
+    },
+    {
+      "key": "P4",
+      "title": "P4"
+    },
+    {
+      "key": "Pan",
+      "title": "Pan"
+    },
+    {
+      "key": "Papyrus",
+      "title": "Papyrus"
+    },
+    {
+      "key": "Parrot",
+      "title": "Parrot"
+    },
+    {
+      "key": "Parrot Assembly",
+      "title": "Parrot Assembly"
+    },
+    {
+      "key": "Parrot Internal Representation",
+      "title": "Parrot Internal Representation"
+    },
+    {
+      "key": "Pascal",
+      "title": "Pascal"
+    },
+    {
+      "key": "Pawn",
+      "title": "Pawn"
+    },
+    {
+      "key": "PEG.js",
+      "title": "PEG.js"
+    },
+    {
+      "key": "Pep8",
+      "title": "Pep8"
+    },
+    {
+      "key": "Pic",
+      "title": "Pic"
+    },
+    {
+      "key": "Pickle",
+      "title": "Pickle"
+    },
+    {
+      "key": "PicoLisp",
+      "title": "PicoLisp"
+    },
+    {
+      "key": "PigLatin",
+      "title": "PigLatin"
+    },
+    {
+      "key": "Pike",
+      "title": "Pike"
+    },
+    {
+      "key": "PlantUML",
+      "title": "PlantUML"
+    },
+    {
+      "key": "PLpgSQL",
+      "title": "PLpgSQL"
+    },
+    {
+      "key": "PLSQL",
+      "title": "PLSQL"
+    },
+    {
+      "key": "Pod",
+      "title": "Pod"
+    },
+    {
+      "key": "Pod 6",
+      "title": "Pod 6"
+    },
+    {
+      "key": "PogoScript",
+      "title": "PogoScript"
+    },
+    {
+      "key": "Pony",
+      "title": "Pony"
+    },
+    {
+      "key": "Portugol",
+      "title": "Portugol"
+    },
+    {
+      "key": "PostCSS",
+      "title": "PostCSS"
+    },
+    {
+      "key": "PostScript",
+      "title": "PostScript"
+    },
+    {
+      "key": "POV-Ray SDL",
+      "title": "POV-Ray SDL"
+    },
+    {
+      "key": "PowerBuilder",
+      "title": "PowerBuilder"
+    },
+    {
+      "key": "Prisma",
+      "title": "Prisma"
+    },
+    {
+      "key": "Processing",
+      "title": "Processing"
+    },
+    {
+      "key": "Procfile",
+      "title": "Procfile"
+    },
+    {
+      "key": "Proguard",
+      "title": "Proguard"
+    },
+    {
+      "key": "Prolog",
+      "title": "Prolog"
+    },
+    {
+      "key": "Promela",
+      "title": "Promela"
+    },
+    {
+      "key": "Propeller Spin",
+      "title": "Propeller Spin"
+    },
+    {
+      "key": "Protocol Buffer",
+      "title": "Protocol Buffer"
+    },
+    {
+      "key": "Public key",
+      "title": "Public key"
+    },
+    {
+      "key": "Pug",
+      "title": "Pug"
+    },
+    {
+      "key": "Puppet",
+      "title": "Puppet"
+    },
+    {
+      "key": "Pure Data",
+      "title": "Pure Data"
+    },
+    {
+      "key": "PureBasic",
+      "title": "PureBasic"
+    },
+    {
+      "key": "PureScript",
+      "title": "PureScript"
+    },
+    {
+      "key": "Python console",
+      "title": "Python console"
+    },
+    {
+      "key": "Python traceback",
+      "title": "Python traceback"
+    },
+    {
+      "key": "q",
+      "title": "q"
+    },
+    {
+      "key": "Q#",
+      "title": "Q#"
+    },
+    {
+      "key": "QMake",
+      "title": "QMake"
+    },
+    {
+      "key": "QML",
+      "title": "QML"
+    },
+    {
+      "key": "Qt Script",
+      "title": "Qt Script"
+    },
+    {
+      "key": "Quake",
+      "title": "Quake"
+    },
+    {
+      "key": "R",
+      "title": "R"
+    },
+    {
+      "key": "Racket",
+      "title": "Racket"
+    },
+    {
+      "key": "Ragel",
+      "title": "Ragel"
+    },
+    {
+      "key": "Raku",
+      "title": "Raku"
+    },
+    {
+      "key": "RAML",
+      "title": "RAML"
+    },
+    {
+      "key": "Rascal",
+      "title": "Rascal"
+    },
+    {
+      "key": "Raw token data",
+      "title": "Raw token data"
+    },
+    {
+      "key": "RDoc",
+      "title": "RDoc"
+    },
+    {
+      "key": "Readline Config",
+      "title": "Readline Config"
+    },
+    {
+      "key": "REALbasic",
+      "title": "REALbasic"
+    },
+    {
+      "key": "Reason",
+      "title": "Reason"
+    },
+    {
+      "key": "ReasonLIGO",
+      "title": "ReasonLIGO"
+    },
+    {
+      "key": "Rebol",
+      "title": "Rebol"
+    },
+    {
+      "key": "Record Jar",
+      "title": "Record Jar"
+    },
+    {
+      "key": "Red",
+      "title": "Red"
+    },
+    {
+      "key": "Redcode",
+      "title": "Redcode"
+    },
+    {
+      "key": "Redirect Rules",
+      "title": "Redirect Rules"
+    },
+    {
+      "key": "Regular Expression",
+      "title": "Regular Expression"
+    },
+    {
+      "key": "Ren'Py",
+      "title": "Ren'Py"
+    },
+    {
+      "key": "RenderScript",
+      "title": "RenderScript"
+    },
+    {
+      "key": "ReScript",
+      "title": "ReScript"
+    },
+    {
+      "key": "reStructuredText",
+      "title": "reStructuredText"
+    },
+    {
+      "key": "REXX",
+      "title": "REXX"
+    },
+    {
+      "key": "Rich Text Format",
+      "title": "Rich Text Format"
+    },
+    {
+      "key": "Ring",
+      "title": "Ring"
+    },
+    {
+      "key": "Riot",
+      "title": "Riot"
+    },
+    {
+      "key": "RMarkdown",
+      "title": "RMarkdown"
+    },
+    {
+      "key": "RobotFramework",
+      "title": "RobotFramework"
+    },
+    {
+      "key": "robots.txt",
+      "title": "robots.txt"
+    },
+    {
+      "key": "Roff",
+      "title": "Roff"
+    },
+    {
+      "key": "Roff Manpage",
+      "title": "Roff Manpage"
+    },
+    {
+      "key": "Rouge",
+      "title": "Rouge"
+    },
+    {
+      "key": "RouterOS Script",
+      "title": "RouterOS Script"
+    },
+    {
+      "key": "RPC",
+      "title": "RPC"
+    },
+    {
+      "key": "RPGLE",
+      "title": "RPGLE"
+    },
+    {
+      "key": "RPM Spec",
+      "title": "RPM Spec"
+    },
+    {
+      "key": "RUNOFF",
+      "title": "RUNOFF"
+    },
+    {
+      "key": "Sage",
+      "title": "Sage"
+    },
+    {
+      "key": "SaltStack",
+      "title": "SaltStack"
+    },
+    {
+      "key": "SAS",
+      "title": "SAS"
+    },
+    {
+      "key": "Sass",
+      "title": "Sass"
+    },
+    {
+      "key": "Scaml",
+      "title": "Scaml"
+    },
+    {
+      "key": "Scheme",
+      "title": "Scheme"
+    },
+    {
+      "key": "Scilab",
+      "title": "Scilab"
+    },
+    {
+      "key": "SCSS",
+      "title": "SCSS"
+    },
+    {
+      "key": "sed",
+      "title": "sed"
+    },
+    {
+      "key": "Self",
+      "title": "Self"
+    },
+    {
+      "key": "SELinux Policy",
+      "title": "SELinux Policy"
+    },
+    {
+      "key": "ShaderLab",
+      "title": "ShaderLab"
+    },
+    {
+      "key": "ShellCheck Config",
+      "title": "ShellCheck Config"
+    },
+    {
+      "key": "ShellSession",
+      "title": "ShellSession"
+    },
+    {
+      "key": "Shen",
+      "title": "Shen"
+    },
+    {
+      "key": "Sieve",
+      "title": "Sieve"
+    },
+    {
+      "key": "Singularity",
+      "title": "Singularity"
+    },
+    {
+      "key": "Slash",
+      "title": "Slash"
+    },
+    {
+      "key": "Slice",
+      "title": "Slice"
+    },
+    {
+      "key": "Slim",
+      "title": "Slim"
+    },
+    {
+      "key": "Smali",
+      "title": "Smali"
+    },
+    {
+      "key": "Smalltalk",
+      "title": "Smalltalk"
+    },
+    {
+      "key": "Smarty",
+      "title": "Smarty"
+    },
+    {
+      "key": "SmPL",
+      "title": "SmPL"
+    },
+    {
+      "key": "SMT",
+      "title": "SMT"
+    },
+    {
+      "key": "Solidity",
+      "title": "Solidity"
+    },
+    {
+      "key": "Soong",
+      "title": "Soong"
+    },
+    {
+      "key": "SourcePawn",
+      "title": "SourcePawn"
+    },
+    {
+      "key": "SPARQL",
+      "title": "SPARQL"
+    },
+    {
+      "key": "Spline Font Database",
+      "title": "Spline Font Database"
+    },
+    {
+      "key": "SQF",
+      "title": "SQF"
+    },
+    {
+      "key": "SQL",
+      "title": "SQL"
+    },
+    {
+      "key": "SQLPL",
+      "title": "SQLPL"
+    },
+    {
+      "key": "Squirrel",
+      "title": "Squirrel"
+    },
+    {
+      "key": "SRecode Template",
+      "title": "SRecode Template"
+    },
+    {
+      "key": "SSH Config",
+      "title": "SSH Config"
+    },
+    {
+      "key": "Stan",
+      "title": "Stan"
+    },
+    {
+      "key": "Standard ML",
+      "title": "Standard ML"
+    },
+    {
+      "key": "STAR",
+      "title": "STAR"
+    },
+    {
+      "key": "Starlark",
+      "title": "Starlark"
+    },
+    {
+      "key": "Stata",
+      "title": "Stata"
+    },
+    {
+      "key": "STL",
+      "title": "STL"
+    },
+    {
+      "key": "STON",
+      "title": "STON"
+    },
+    {
+      "key": "StringTemplate",
+      "title": "StringTemplate"
+    },
+    {
+      "key": "Stylus",
+      "title": "Stylus"
+    },
+    {
+      "key": "SubRip Text",
+      "title": "SubRip Text"
+    },
+    {
+      "key": "SugarSS",
+      "title": "SugarSS"
+    },
+    {
+      "key": "SuperCollider",
+      "title": "SuperCollider"
+    },
+    {
+      "key": "Svelte",
+      "title": "Svelte"
+    },
+    {
+      "key": "SVG",
+      "title": "SVG"
+    },
+    {
+      "key": "SWIG",
+      "title": "SWIG"
+    },
+    {
+      "key": "SystemVerilog",
+      "title": "SystemVerilog"
+    },
+    {
+      "key": "Talon",
+      "title": "Talon"
+    },
+    {
+      "key": "Tcl",
+      "title": "Tcl"
+    },
+    {
+      "key": "Tcsh",
+      "title": "Tcsh"
+    },
+    {
+      "key": "Tea",
+      "title": "Tea"
+    },
+    {
+      "key": "Terra",
+      "title": "Terra"
+    },
+    {
+      "key": "TeX",
+      "title": "TeX"
+    },
+    {
+      "key": "Texinfo",
+      "title": "Texinfo"
+    },
+    {
+      "key": "Text",
+      "title": "Text"
+    },
+    {
+      "key": "Textile",
+      "title": "Textile"
+    },
+    {
+      "key": "TextMate Properties",
+      "title": "TextMate Properties"
+    },
+    {
+      "key": "Thrift",
+      "title": "Thrift"
+    },
+    {
+      "key": "TI Program",
+      "title": "TI Program"
+    },
+    {
+      "key": "TLA",
+      "title": "TLA"
+    },
+    {
+      "key": "TOML",
+      "title": "TOML"
+    },
+    {
+      "key": "TSQL",
+      "title": "TSQL"
+    },
+    {
+      "key": "TSV",
+      "title": "TSV"
+    },
+    {
+      "key": "TSX",
+      "title": "TSX"
+    },
+    {
+      "key": "Turing",
+      "title": "Turing"
+    },
+    {
+      "key": "Turtle",
+      "title": "Turtle"
+    },
+    {
+      "key": "Twig",
+      "title": "Twig"
+    },
+    {
+      "key": "TXL",
+      "title": "TXL"
+    },
+    {
+      "key": "Type Language",
+      "title": "Type Language"
+    },
+    {
+      "key": "Unified Parallel C",
+      "title": "Unified Parallel C"
+    },
+    {
+      "key": "Unity3D Asset",
+      "title": "Unity3D Asset"
+    },
+    {
+      "key": "Unix Assembly",
+      "title": "Unix Assembly"
+    },
+    {
+      "key": "Uno",
+      "title": "Uno"
+    },
+    {
+      "key": "UnrealScript",
+      "title": "UnrealScript"
+    },
+    {
+      "key": "UrWeb",
+      "title": "UrWeb"
+    },
+    {
+      "key": "V",
+      "title": "V"
+    },
+    {
+      "key": "Vala",
+      "title": "Vala"
+    },
+    {
+      "key": "Valve Data Format",
+      "title": "Valve Data Format"
+    },
+    {
+      "key": "VBA",
+      "title": "VBA"
+    },
+    {
+      "key": "VBScript",
+      "title": "VBScript"
+    },
+    {
+      "key": "VCL",
+      "title": "VCL"
+    },
+    {
+      "key": "Velocity Template Language",
+      "title": "Velocity Template Language"
+    },
+    {
+      "key": "Verilog",
+      "title": "Verilog"
+    },
+    {
+      "key": "VHDL",
+      "title": "VHDL"
+    },
+    {
+      "key": "Vim Help File",
+      "title": "Vim Help File"
+    },
+    {
+      "key": "Vim Script",
+      "title": "Vim Script"
+    },
+    {
+      "key": "Vim Snippet",
+      "title": "Vim Snippet"
+    },
+    {
+      "key": "Visual Basic .NET",
+      "title": "Visual Basic .NET"
+    },
+    {
+      "key": "Volt",
+      "title": "Volt"
+    },
+    {
+      "key": "Vue",
+      "title": "Vue"
+    },
+    {
+      "key": "Vyper",
+      "title": "Vyper"
+    },
+    {
+      "key": "Wavefront Material",
+      "title": "Wavefront Material"
+    },
+    {
+      "key": "Wavefront Object",
+      "title": "Wavefront Object"
+    },
+    {
+      "key": "wdl",
+      "title": "wdl"
+    },
+    {
+      "key": "Web Ontology Language",
+      "title": "Web Ontology Language"
+    },
+    {
+      "key": "WebAssembly",
+      "title": "WebAssembly"
+    },
+    {
+      "key": "WebIDL",
+      "title": "WebIDL"
+    },
+    {
+      "key": "WebVTT",
+      "title": "WebVTT"
+    },
+    {
+      "key": "Wget Config",
+      "title": "Wget Config"
+    },
+    {
+      "key": "Whiley",
+      "title": "Whiley"
+    },
+    {
+      "key": "Wikitext",
+      "title": "Wikitext"
+    },
+    {
+      "key": "Win32 Message File",
+      "title": "Win32 Message File"
+    },
+    {
+      "key": "Windows Registry Entries",
+      "title": "Windows Registry Entries"
+    },
+    {
+      "key": "wisp",
+      "title": "wisp"
+    },
+    {
+      "key": "Witcher Script",
+      "title": "Witcher Script"
+    },
+    {
+      "key": "Wollok",
+      "title": "Wollok"
+    },
+    {
+      "key": "World of Warcraft Addon Data",
+      "title": "World of Warcraft Addon Data"
+    },
+    {
+      "key": "Wren",
+      "title": "Wren"
+    },
+    {
+      "key": "X BitMap",
+      "title": "X BitMap"
+    },
+    {
+      "key": "X Font Directory Index",
+      "title": "X Font Directory Index"
+    },
+    {
+      "key": "X PixMap",
+      "title": "X PixMap"
+    },
+    {
+      "key": "X10",
+      "title": "X10"
+    },
+    {
+      "key": "xBase",
+      "title": "xBase"
+    },
+    {
+      "key": "XC",
+      "title": "XC"
+    },
+    {
+      "key": "XCompose",
+      "title": "XCompose"
+    },
+    {
+      "key": "XML",
+      "title": "XML"
+    },
+    {
+      "key": "XML Property List",
+      "title": "XML Property List"
+    },
+    {
+      "key": "Xojo",
+      "title": "Xojo"
+    },
+    {
+      "key": "Xonsh",
+      "title": "Xonsh"
+    },
+    {
+      "key": "XPages",
+      "title": "XPages"
+    },
+    {
+      "key": "XProc",
+      "title": "XProc"
+    },
+    {
+      "key": "XQuery",
+      "title": "XQuery"
+    },
+    {
+      "key": "XS",
+      "title": "XS"
+    },
+    {
+      "key": "XSLT",
+      "title": "XSLT"
+    },
+    {
+      "key": "Xtend",
+      "title": "Xtend"
+    },
+    {
+      "key": "Yacc",
+      "title": "Yacc"
+    },
+    {
+      "key": "YAML",
+      "title": "YAML"
+    },
+    {
+      "key": "YANG",
+      "title": "YANG"
+    },
+    {
+      "key": "YARA",
+      "title": "YARA"
+    },
+    {
+      "key": "YASnippet",
+      "title": "YASnippet"
+    },
+    {
+      "key": "Yul",
+      "title": "Yul"
+    },
+    {
+      "key": "ZAP",
+      "title": "ZAP"
+    },
+    {
+      "key": "Zeek",
+      "title": "Zeek"
+    },
+    {
+      "key": "ZenScript",
+      "title": "ZenScript"
+    },
+    {
+      "key": "Zephir",
+      "title": "Zephir"
+    },
+    {
+      "key": "Zig",
+      "title": "Zig"
+    },
+    {
+      "key": "ZIL",
+      "title": "ZIL"
+    },
+    {
+      "key": "Zimpl",
+      "title": "Zimpl"
+    }
+  ]
