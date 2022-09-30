@@ -62,6 +62,7 @@ function ConfigurationsEditView(props: ConfigurationsEditViewProps) {
         }
       });
     },
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     [configuration]
   );
 

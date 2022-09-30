@@ -18,6 +18,7 @@ function CodeEditor(props: CodeEditorProps) {
       let elementRef = codeBlockRef.current.children[0];
       if (elementRef) elementRef["style"]["height"] = "14rem";
     }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [codeBlockRef?.current]);
 
   return (

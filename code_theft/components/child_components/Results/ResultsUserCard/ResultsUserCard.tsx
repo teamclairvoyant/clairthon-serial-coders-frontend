@@ -3,6 +3,7 @@ import React from "react";
 const { Meta } = Card;
 import styles from "./ResultsUserCard.module.css";
 import { UserOutlined, HomeOutlined } from "@ant-design/icons";
+import Image from "next/image";
 
 type ResultsUserCardProps = {
   result?: any;
@@ -18,7 +19,7 @@ const ResultsUserCard = (props: ResultsUserCardProps) => {
 
   return (
     <div className="flex flex-col h-[7.5rem] items-center bg-white rounded-lg border shadow-md md:flex-row md:max-w-xl ">
-      <img
+      <Image
         className={`${styles.imgContainer}  w-full  object-fill rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg`}
         src={result?.avatar_url}
         onError={addImageFallback}

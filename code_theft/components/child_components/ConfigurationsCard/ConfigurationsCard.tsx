@@ -49,6 +49,7 @@ function ConfigurationsCard(props: ConfigurationsCardProps) {
         //   title={"view results"}
         //   onClick={cardClickHandler}
         // />,
+        // eslint-disable-next-line react/jsx-key
         <div onClick={cardClickHandler}>
           <div className={"flex justify-center items-center text-[#1890ff]"}>
             view reports <ArrowRightOutlined className="ml-2 " />

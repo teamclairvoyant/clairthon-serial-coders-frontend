@@ -24,6 +24,7 @@ function ConfigurationSearchResults(props: ConfigurationSearchResultsProps) {
         setResults(response);
       });
     }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [query?.config_id]);
 
   const getUserSearchResults = useMemo(
@@ -124,6 +125,7 @@ function ConfigurationSearchResults(props: ConfigurationSearchResultsProps) {
       //   children: <NoDataFound />,
       // },
     ];
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [results]);
 
   return (
