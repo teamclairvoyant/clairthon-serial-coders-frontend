@@ -21,6 +21,10 @@ function ConfigurationsCreateView(props: ConfigurationsCreateViewProps) {
       modifiedDate: "2022-09-23T12:06:40.971+00:00",
     };
 
+    const invokeSearchNow = configOptions?.invokeSearchNow;
+
+    delete configOptions?.invokeSearchNow;
+
     configOptions.codeSearchKeywords = generateArray(
       configOptions?.codeSearchKeywords ?? ""
     );
@@ -40,9 +44,13 @@ function ConfigurationsCreateView(props: ConfigurationsCreateViewProps) {
     const payload = { ...configOptions, ...additional };
 
     createConfiguration(payload).then(function (response) {
-      triggerConfiguration(response?.data?.id).then((response) => {
+      if (invokeSearchNow) {
+        triggerConfiguration(response?.data?.id).then((response) => {
+          router.push("/code/config/view");
+        });
+      } else {
         router.push("/code/config/view");
-      });
+      }
     });
   };
 

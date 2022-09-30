@@ -4,6 +4,7 @@ import CustomTagInput from "../CustomTagInput/CustomTagInput";
 
 type ConfigurationFormProps = {
   className?: string;
+  title?: string;
   initialValues?: any;
   btnText?: string | undefined;
   onFinishHandler: (configOptioins: any) => void;
@@ -13,6 +14,7 @@ type ConfigurationFormProps = {
 function ConfigurationForm(props: ConfigurationFormProps) {
   const {
     className = "",
+    title = "Create new configuration",
     initialValues = {},
     onFinishHandler = () => {},
     onFinishFailedHandler = () => {},
@@ -21,7 +23,7 @@ function ConfigurationForm(props: ConfigurationFormProps) {
   const [form] = Form.useForm();
 
   return (
-    <Card title="Create new configuration" className={className}>
+    <Card title={title} className={className}>
       <Form
         layout="vertical"
         form={form}
@@ -116,6 +118,14 @@ eg. com.codetheft.java"
             <div className="flex gap-x-6 justify-end">
               <Form.Item
                 name="scheduled"
+                valuePropName="checked"
+                className="select-none"
+              >
+                <Checkbox>Schedule configuration</Checkbox>
+              </Form.Item>
+
+              <Form.Item
+                name="invokeSearchNow"
                 valuePropName="checked"
                 className="select-none"
               >

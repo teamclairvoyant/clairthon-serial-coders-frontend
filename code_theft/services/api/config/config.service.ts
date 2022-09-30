@@ -40,7 +40,7 @@ export function fetchSearchResults(configOptions: any = {}) {
   const { configId } = configOptions;
 
   return fetch(
-    codePoliceRestApi(`search/config/${configId}?test=true`),
+    codePoliceRestApi(`getSearchResponse/config/${configId}`),
     getFetchRequestHeaders()
   ).then((response) => response.json());
 }

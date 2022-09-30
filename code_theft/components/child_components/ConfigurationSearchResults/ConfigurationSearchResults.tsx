@@ -16,68 +16,7 @@ function ConfigurationSearchResults(props: ConfigurationSearchResultsProps) {
   const router = useRouter();
   const { query } = router;
   const [configId] = useState(query?.config_id);
-  const [results, setResults] = useState({
-    id: 1,
-    userSearchJsonResultString:
-      '[{"users":[{"id":1,"login":"bkpune","type":"ADMIN","score":100.0,"repos_url":null,"avatar_url":"https://facebook.com/bkpune","url":null}]}]',
-    contentSearchJsonResultString:
-      '[{"content":[{"name":"Test Content","url":"https://github.com/","repository":{"id":"1","name":"Test Repo","full_name":null,"accessible":null,"owner":null,"url":"https://github.com/teamclairvoyant/clairthon-serial-coders","fork":null}}]}]',
-    fileSearchJsonResultString:
-      '[{"files":[{"name":"Test File Search","url":"https://github.com/file","repository":{"id":"1","name":"Test Repo","full_name":null,"accessible":null,"owner":null,"url":"https://github.com/teamclairvoyant/clairthon-serial-coders","fork":null}}]}]',
-    userSearchResults: [
-      {
-        users: [
-          {
-            id: 1,
-            login: "bkpune",
-            type: "ADMIN",
-            score: 100,
-            repos_url: null,
-            avatar_url: "https://facebook.com/bkpune",
-            url: null,
-          },
-        ],
-      },
-    ],
-    contentSearchResults: [
-      {
-        content: [
-          {
-            name: "Test Content",
-            url: "https://github.com/",
-            repository: {
-              id: "1",
-              name: "Test Repo",
-              full_name: null,
-              accessible: null,
-              owner: null,
-              url: "https://github.com/teamclairvoyant/clairthon-serial-coders",
-              fork: null,
-            },
-          },
-        ],
-      },
-    ],
-    fileSearchResults: [
-      {
-        files: [
-          {
-            name: "Test File Search",
-            url: "https://github.com/file",
-            repository: {
-              id: "1",
-              name: "Test Repo",
-              full_name: null,
-              accessible: null,
-              owner: null,
-              url: "https://github.com/teamclairvoyant/clairthon-serial-coders",
-              fork: null,
-            },
-          },
-        ],
-      },
-    ],
-  });
+  const [results, setResults] = useState(null);
 
   useEffect(() => {
     if (configId) {
@@ -155,7 +94,12 @@ function ConfigurationSearchResults(props: ConfigurationSearchResultsProps) {
           <div>
             {getUserSearchResults?.length > 0 &&
               getUserSearchResults?.map((result, id) => {
-                return <ResultsUserCard result={result} />;
+                return (
+                  <ResultsUserCard
+                    key={`${new Date().getTime()}-${id}`}
+                    result={result}
+                  />
+                );
               })}
 
             {getUserSearchResults?.length === 0 && <NoDataFound />}
@@ -187,7 +131,7 @@ function ConfigurationSearchResults(props: ConfigurationSearchResultsProps) {
       //   children: <NoDataFound />,
       // },
     ];
-  }, []);
+  }, [results]);
 
   return (
     <div className={styles.configurationSearchResultsContainer}>

@@ -9,7 +9,7 @@ function ConfigurationResultsView(props: ConfigurationResultsViewProps) {
 
   return (
     <div>
-      <div className={styles.configurationResultsContainer}>
+      <div className={`configurations-result-page`}>
         <ConfigurationsSearchBanner />
 
         <ConfigurationSearchResults />

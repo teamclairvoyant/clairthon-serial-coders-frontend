@@ -2,6 +2,7 @@ import ConfigurationForm from "../../child_components/ConfigurationForm/Configur
 import styles from "./ConfigurationsEditView.module.css";
 import {
   createConfiguration,
+  triggerConfiguration,
   updateConfigurations,
 } from "../../../services/api/config/config.service";
 import { useRouter } from "next/router";
@@ -31,6 +32,10 @@ function ConfigurationsEditView(props: ConfigurationsEditViewProps) {
   const onFinishHandler = useCallback(
     (configOptions: any) => {
       const existingConfiguration = JSON.parse(JSON.stringify(configuration));
+      console.log("#1995#: configuration options ", configOptions);
+
+      const invokeSearchNow = configOptions?.invokeSearchNow;
+      delete configOptions?.invokeSearchNow;
 
       configOptions.codeSearchKeywords = generateArray(
         configOptions?.codeSearchKeywords ?? ""
@@ -48,8 +53,14 @@ function ConfigurationsEditView(props: ConfigurationsEditViewProps) {
 
       const payload = { ...existingConfiguration, ...configOptions };
 
-      updateConfigurations(payload).then(function () {
-        router.push("/code/config/view");
+      updateConfigurations(payload).then(function (response) {
+        if (invokeSearchNow) {
+          triggerConfiguration(response?.data?.id).then((response) => {
+            router.push("/code/config/view");
+          });
+        } else {
+          router.push("/code/config/view");
+        }
       });
     },
     [configuration]
@@ -58,7 +69,8 @@ function ConfigurationsEditView(props: ConfigurationsEditViewProps) {
   return (
     <div className={styles.configurationsEditView}>
       <ConfigurationForm
-        btnText="Update Configurations"
+        btnText="Update Configuration"
+        title="Edit configuration"
         initialValues={configuration}
         onFinishHandler={onFinishHandler}
       />

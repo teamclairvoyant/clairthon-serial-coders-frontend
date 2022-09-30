@@ -39,7 +39,7 @@ a {
 }
 
 // view results page descriptions:
-.ant-descriptions-item-label {
+.configurations-result-page .ant-descriptions-item-label {
   font-weight: 300 !important;
 }
 
