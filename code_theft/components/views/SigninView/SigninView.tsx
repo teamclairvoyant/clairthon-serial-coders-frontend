@@ -42,12 +42,12 @@ function SigninView(props: SigninViewProps) {
       >
         <LoginForm formState={formState} onFinishHandler={onFinsihHandler} />
 
-        <div className={`${styles.signupMessage} hidden`}>
-          Don't have an account ?{" "}
+        {/* <div className={`${styles.signupMessage} hidden`}>
+          Don&apos;t have an account ?{" "}
           <Link href="">
             <span className={styles.signupLink}>sign up</span>
           </Link>
-        </div>
+        </div> */}
       </Card>
     </div>
   );

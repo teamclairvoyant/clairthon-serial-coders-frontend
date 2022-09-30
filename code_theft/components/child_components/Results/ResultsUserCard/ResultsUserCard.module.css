@@ -1,0 +1,13 @@
+.userProfileCard {
+  border: 1px solid #0000000f;
+}
+
+.imgContainer {
+  height: 7.5rem;
+  background: aliceblue;
+}
+
+.btnAlignment {
+  display: flex;
+  place-items: center !important;
+}

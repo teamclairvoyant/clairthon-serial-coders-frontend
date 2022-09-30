@@ -28,3 +28,29 @@ a {
     background: black;
   }
 }
+
+// code-block-editor
+.code-block-editor > span {
+  height: 14rem;
+}
+
+.custom-ant-tab .ant-tabs-tab-active {
+  border: 2px solid !important;
+}
+
+// view results page descriptions:
+
+.configurations-result-page
+  .ant-descriptions-item-container
+  .ant-descriptions-item-label {
+  font-weight: 300 !important;
+}
+
+.customEditOutlined svg {
+  fill: #1890ff !important;
+  font-size: 1rem;
+}
+
+.configuration-list-container .ant-card-body {
+  height: 11rem !important;
+}
