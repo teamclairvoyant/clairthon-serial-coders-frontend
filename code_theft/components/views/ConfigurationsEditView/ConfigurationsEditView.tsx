@@ -32,7 +32,6 @@ function ConfigurationsEditView(props: ConfigurationsEditViewProps) {
   const onFinishHandler = useCallback(
     (configOptions: any) => {
       const existingConfiguration = JSON.parse(JSON.stringify(configuration));
-      console.log("#1995#: configuration options ", configOptions);
 
       const invokeSearchNow = configOptions?.invokeSearchNow;
       delete configOptions?.invokeSearchNow;

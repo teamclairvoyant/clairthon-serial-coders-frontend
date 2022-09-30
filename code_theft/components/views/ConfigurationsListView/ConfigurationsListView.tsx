@@ -12,7 +12,7 @@ type ConfigurationsCardViewProps = {};
 
 function ConfigurationsCardView(props: ConfigurationsCardViewProps) {
   const router = useRouter();
-  const [pageLoading, setPageLoading] = useState("SUCCESS");
+  const [pageLoading, setPageLoading] = useState(true);
   const [configurationsData, setConfigurationsData] = useState([]);
 
   useEffect(() => {
@@ -33,17 +33,22 @@ function ConfigurationsCardView(props: ConfigurationsCardViewProps) {
   );
 
   useEffect(() => {
-    fetchAllConfigurations().then((response) => {
-      console.log("#995#: responses are ", response);
-      setConfigurationsData(response ?? []);
-    });
+    setPageLoading(true);
+    fetchAllConfigurations()
+      .then((response) => {
+        setConfigurationsData(response ?? []);
+      })
+      .catch(() => setConfigurationsData([]))
+      .finally(() => {
+        setPageLoading(false);
+      });
   }, []);
 
   return (
     <div
       className={`${styles.configurationsListContainer} configuration-list-container`}
     >
-      {pageLoading === "LOADING" && (
+      {pageLoading && (
         <LoadingOutlined
           style={{
             fontSize: "4rem",
@@ -53,14 +58,14 @@ function ConfigurationsCardView(props: ConfigurationsCardViewProps) {
           }}
         />
       )}
-      {
+      {!pageLoading && configurationsData.length > 0 && (
         <div className={styles.configurationsListSection}>
           {renderConfigurations}
         </div>
-      }
+      )}
 
-      {pageLoading === "NO_DATA" && (
-        <div className="flex justify-center items-center">
+      {!pageLoading && configurationsData.length === 0 && (
+        <div className="flex justify-center items-center mt-32">
           <Empty description="No configurations found">
             {/* <Button type="primary">Create new configurations</Button> */}
           </Empty>

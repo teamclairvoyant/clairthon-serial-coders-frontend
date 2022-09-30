@@ -41,13 +41,6 @@ function ConfigurationSearchResults(props: ConfigurationSearchResultsProps) {
     [results]
   );
 
-  console.log("#995#: results are ", {
-    results,
-    getContentSearchResults,
-    getUserSearchResults,
-    getFileSearchResults,
-  });
-
   const UserProfile = (props: any) => {
     const { avatar = "https://joeschmoe.io/api/v1/random", username = "" } =
       props;
